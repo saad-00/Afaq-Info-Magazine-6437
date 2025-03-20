@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأبحاث العلمية - آفاق المعلومات</title>
+    
+    <!-- Bootstrap 5 RTL CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="home-style.css">
+    <!-- Add custom styles for research page -->
+    <link rel="stylesheet" href="enhanced-colors.css">
+    <link rel="stylesheet" href="research-style.css">
+    
+</head>
+<body class="light-mode">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="home.html">
+                <span class="text-primary">آفاق</span> المعلومات
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#hero">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#about">نبذة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#opportunities">الفرص الوظيفية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#message">كلمة رئيس القسم</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#goals">الأهداف</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#vision">الرؤية والرسالة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="research-page.html">الأبحاث العلمية</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="theme-switch-wrapper ms-3">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox" />
+                                <div class="slider round">
+                                    <i class="fas fa-sun"></i>
+                                    <i class="fas fa-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Research Papers Section -->
+    <section id="research" class="section research-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <span class="section-subtitle">المعرفة المتخصصة</span>
+                    <h2 class="section-title">الأبحاث العلمية</h2>
+                    <p class="lead mt-3">مستودع أبحاث قسم المعلومات ومصادر التعلم</p>
+                </div>
+                
+                <!-- Search Box -->
+                <div class="col-md-6 mx-auto mb-5">
+                    <div class="search-box">
+                        <input type="text" id="search-input" class="form-control" placeholder="ابحث عن أبحاث علمية...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                
+                <div class="col-md-12">
+                    <div class="row">
+                        <!-- Sectors (Main Categories) -->
+                        <div class="col-lg-3 mb-4">
+                            <h5 class="mb-3">القطاعات</h5>
+                            <div class="nav flex-column sector-tabs" id="sector-tabs" role="tablist">
+                                <button class="nav-link active" id="organization-tab" data-bs-toggle="tab" data-bs-target="#organization" type="button" role="tab" aria-selected="true">
+                                    <i class="fas fa-sitemap me-2"></i>تنظيم المعلومات
+                                </button>
+                                <button class="nav-link" id="sources-tab" data-bs-toggle="tab" data-bs-target="#sources" type="button" role="tab" aria-selected="false">
+                                    <i class="fas fa-database me-2"></i>مصادر المعلومات
+                                </button>
+                                <button class="nav-link" id="services-tab" data-bs-toggle="tab" data-bs-target="#services" type="button" role="tab" aria-selected="false">
+                                    <i class="fas fa-concierge-bell me-2"></i>خدمات المعلومات
+                                </button>
+                                <button class="nav-link" id="technology-tab" data-bs-toggle="tab" data-bs-target="#technology" type="button" role="tab" aria-selected="false">
+                                    <i class="fas fa-microchip me-2"></i>تقنية المعلومات
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- Content Area -->
+                        <div class="col-lg-9">
+                            <div class="tab-content" id="sectorTabContent">
+                                <!-- 1. قطاع تنظيم المعلومات -->
+                                <div class="tab-pane fade show active" id="organization" role="tabpanel" aria-labelledby="organization-tab">
+                                    <!-- Years Navigation -->
+                                    <ul class="nav year-tabs" id="organization-years" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="org-1446-tab" data-bs-toggle="tab" data-bs-target="#org-1446" type="button" role="tab" aria-selected="true">1446</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="org-1445-tab" data-bs-toggle="tab" data-bs-target="#org-1445" type="button" role="tab" aria-selected="false">1445</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="org-1444-tab" data-bs-toggle="tab" data-bs-target="#org-1444" type="button" role="tab" aria-selected="false">1444</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="org-1443-tab" data-bs-toggle="tab" data-bs-target="#org-1443" type="button" role="tab" aria-selected="false">1443</button>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Content for years -->
+                                    <div class="tab-content" id="organization-years-content">
+                                        <div class="tab-pane fade show active" id="org-1446" role="tabpanel" aria-labelledby="org-1446-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="org-1445" role="tabpanel" aria-labelledby="org-1445-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="org-1444" role="tabpanel" aria-labelledby="org-1444-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="org-1443" role="tabpanel" aria-labelledby="org-1443-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- 2. قطاع مصادر المعلومات -->
+                                <div class="tab-pane fade" id="sources" role="tabpanel" aria-labelledby="sources-tab">
+                                    <!-- Years Navigation -->
+                                    <ul class="nav year-tabs" id="sources-years" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="src-1446-tab" data-bs-toggle="tab" data-bs-target="#src-1446" type="button" role="tab" aria-selected="true">1446</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="src-1445-tab" data-bs-toggle="tab" data-bs-target="#src-1445" type="button" role="tab" aria-selected="false">1445</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="src-1444-tab" data-bs-toggle="tab" data-bs-target="#src-1444" type="button" role="tab" aria-selected="false">1444</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="src-1443-tab" data-bs-toggle="tab" data-bs-target="#src-1443" type="button" role="tab" aria-selected="false">1443</button>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Content for years -->
+                                    <div class="tab-content" id="sources-years-content">
+                                        <div class="tab-pane fade show active" id="src-1446" role="tabpanel" aria-labelledby="src-1446-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="src-1445" role="tabpanel" aria-labelledby="src-1445-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="src-1444" role="tabpanel" aria-labelledby="src-1444-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="src-1443" role="tabpanel" aria-labelledby="src-1443-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- 3. قطاع خدمات المعلومات -->
+                                <div class="tab-pane fade" id="services" role="tabpanel" aria-labelledby="services-tab">
+                                    <!-- Years Navigation -->
+                                    <ul class="nav year-tabs" id="services-years" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="svc-1446-tab" data-bs-toggle="tab" data-bs-target="#svc-1446" type="button" role="tab" aria-selected="true">1446</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="svc-1445-tab" data-bs-toggle="tab" data-bs-target="#svc-1445" type="button" role="tab" aria-selected="false">1445</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="svc-1444-tab" data-bs-toggle="tab" data-bs-target="#svc-1444" type="button" role="tab" aria-selected="false">1444</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="svc-1443-tab" data-bs-toggle="tab" data-bs-target="#svc-1443" type="button" role="tab" aria-selected="false">1443</button>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Content for years -->
+                                    <div class="tab-content" id="services-years-content">
+                                        <div class="tab-pane fade show active" id="svc-1446" role="tabpanel" aria-labelledby="svc-1446-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="svc-1445" role="tabpanel" aria-labelledby="svc-1445-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="svc-1444" role="tabpanel" aria-labelledby="svc-1444-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="svc-1443" role="tabpanel" aria-labelledby="svc-1443-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- 4. قطاع تقنية المعلومات -->
+                                <div class="tab-pane fade" id="technology" role="tabpanel" aria-labelledby="technology-tab">
+                                    <!-- Years Navigation -->
+                                    <ul class="nav year-tabs" id="technology-years" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="tech-1446-tab" data-bs-toggle="tab" data-bs-target="#tech-1446" type="button" role="tab" aria-selected="true">1446</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="tech-1445-tab" data-bs-toggle="tab" data-bs-target="#tech-1445" type="button" role="tab" aria-selected="false">1445</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="tech-1444-tab" data-bs-toggle="tab" data-bs-target="#tech-1444" type="button" role="tab" aria-selected="false">1444</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="tech-1443-tab" data-bs-toggle="tab" data-bs-target="#tech-1443" type="button" role="tab" aria-selected="false">1443</button>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Content for years -->
+                                    <div class="tab-content" id="technology-years-content">
+                                        <div class="tab-pane fade show active" id="tech-1446" role="tabpanel" aria-labelledby="tech-1446-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="tech-1445" role="tabpanel" aria-labelledby="tech-1445-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="tech-1444" role="tabpanel" aria-labelledby="tech-1444-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                        <div class="tab-pane fade" id="tech-1443" role="tabpanel" aria-labelledby="tech-1443-tab">
+                                            <!-- سيتم ملء الأبحاث هنا ديناميكياً بواسطة JavaScript -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">آفاق المعلومات</h5>
+                    <p class="text-white-50">مجلة علمية متخصصة في مجال المعلومات ومصادر التعلم بجامعة طيبة.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">روابط سريعة</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html#about">نبذة عن القسم</a></li>
+                        <li><a href="index.html#opportunities">الفرص الوظيفية</a></li>
+                        <li><a href="index.html#message">كلمة رئيس القسم</a></li>
+                        <li><a href="index.html#goals">أهداف القسم</a></li>
+                        <li><a href="index.html#vision">الرؤية والرسالة</a></li>
+                        <li><a href="research.html">الأبحاث العلمية</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-heading">معلومات الاتصال</h5>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> الهاتف: 966148618024+</p>
+                        <p><i class="fas fa-envelope"></i> البريد الإلكتروني: info@taibahu.edu.sa</p>
+                        <p><i class="fas fa-map-marker-alt"></i> الموقع: جامعة طيبة، المدينة المنورة – مبنى 103، الدور الثاني، جناح F</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">&copy; 2025 آفاق المعلومات - مجلة علمية. جميع الحقوق محفوظة.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="research-management.js"></script>
+    <!-- <script src="enhanced-js.js"></script> -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href').substring(1);
+                if (targetId === "") return; // Skip if href="#"
+                
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Dark mode toggle
+        const checkbox = document.getElementById('checkbox');
+        checkbox.addEventListener('change', function() {
+            document.body.classList.toggle('dark-mode');
+            
+            // Save preference to localStorage
+            if(document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        });
+
+        // Check for saved theme preference
+        if(localStorage.getItem('darkMode') === 'enabled') {
+            document.body.classList.add('dark-mode');
+            checkbox.checked = true;
+        }
+
+        // Back to top button
+        const backToTopButton = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('active');
+            } else {
+                backToTopButton.classList.remove('active');
+            }
+        });
+
+        // Search functionality
+        const searchInput = document.getElementById('search-input');
+        
+        searchInput.addEventListener('keyup', function() {
+            const searchValue = this.value.toLowerCase();
+            const researchCards = document.querySelectorAll('.research-card');
+            
+            researchCards.forEach(card => {
+                const title = card.querySelector('.research-title').textContent.toLowerCase();
+                const author = card.querySelector('.research-author').textContent.toLowerCase();
+                const abstract = card.querySelector('.research-abstract').textContent.toLowerCase();
+                
+                if (title.includes(searchValue) || author.includes(searchValue) || abstract.includes(searchValue)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            
+            // Show empty state if no results in active tab
+            const activeTabs = document.querySelectorAll('.tab-pane.active');
+            
+            activeTabs.forEach(tab => {
+                const visibleCards = tab.querySelectorAll('.research-card[style="display: block"]');
+                const emptyState = tab.querySelector('.empty-state');
+                
+                if (visibleCards.length === 0 && !emptyState) {
+                    // Create empty state if doesn't exist
+                    const newEmptyState = document.createElement('div');
+                    newEmptyState.className = 'empty-state search-empty';
+                    newEmptyState.innerHTML = `
+                        <i class="fas fa-search"></i>
+                        <h5>لا توجد نتائج للبحث</h5>
+                        <p>حاول استخدام كلمات بحث أخرى أو استعرض جميع الأبحاث</p>
+                    `;
+                    
+                    // Remove any previous search empty states
+                    const oldEmptyStates = tab.querySelectorAll('.search-empty');
+                    oldEmptyStates.forEach(el => el.remove());
+                    
+                    tab.appendChild(newEmptyState);
+                } else if (visibleCards.length > 0) {
+                    // Remove empty state if we have results
+                    const searchEmptyStates = tab.querySelectorAll('.search-empty');
+                    searchEmptyStates.forEach(el => el.remove());
+                }
+            });
+        });
+        
+        // Download tracking (simulate)
+        const downloadButtons = document.querySelectorAll('.download-btn');
+        
+        downloadButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const researchId = this.getAttribute('data-research-id');
+                const countElement = this.parentElement.querySelector('.download-count');
+                
+                // Get current count
+                const currentCount = parseInt(countElement.textContent.match(/\d+/)[0]);
+                
+                // Update count
+                countElement.innerHTML = `<i class="fas fa-chart-line me-1"></i>${currentCount + 1} تحميل`;
+                
+                // In a real scenario, you would redirect to the PDF file
+                // For now, let's show an alert
+                alert(`جاري تحميل البحث: ${researchId}.pdf`);
+                
+                // In a real implementation, you would use:
+                // window.location.href = `/downloads/${researchId}.pdf`;
+            });
+        });
+    </script>
+</body>
+</html>
